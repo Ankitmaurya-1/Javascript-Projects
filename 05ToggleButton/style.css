@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    font-size: 3rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(32, 27, 27);
+}
